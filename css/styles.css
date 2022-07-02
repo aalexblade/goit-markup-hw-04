@@ -159,8 +159,11 @@ margin-left: 93px;
 
 
 
-.contact-link:hover,
-.contact-link:focus,
+
+
+
+.contact-link a:hover,
+.contact-link a:focus,
  {
      color:var(--accent-color);
     
@@ -426,7 +429,7 @@ letter-spacing: 0.03em;
 
 
 }
-
+ 
 .contact-link {
   color: var(--tiele-text-color);
   text-decoration: none;
@@ -553,14 +556,46 @@ margin-bottom: 4px;
 border-right: 24px;
 border-bottom: 54px;
 border-left: 24px; 
-
 }
+
 
 .icon-mail {
   width: 16px;
   height: 12px;
   fill: currentColor;
   margin-right: 10px;
-  padding-top: 32px;
+ margin-top: 2px;
+} 
+
+.icon-phone{
+  width: 10px;
+	height: 16px;
+	fill: currentColor;
+	margin-right: 10px;
+ }
+
+
+ 
+.contact-site a:hover,
+.contact-site a:focus {
+color: var(--accent-color);
+
 }
 
+.features-icons {
+  display: flex;
+	height: 120px;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 30px;
+  margin-right: 30px;
+    background: #F5F4FA;
+    border-radius: 4px;
+    
+}
+
+.features-icon {
+	width: 70px;
+	height: 70px;
+
+}
