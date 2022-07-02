@@ -179,9 +179,23 @@
   /* < !-- герой-шапка сайта --> */
   .hero {
     padding: 200px 0;
-    background: #2F303A;
     text-align: center;
    }
+   .overlay {
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background: #2F303A;
+    background-image: linear-gradient(
+        to right,
+        rgba(47, 48, 58, 0.4),
+        rgba(47, 48, 58, 0.4)
+        ),
+        url(../images-svg/images-main_page/hero-backgraund-image.jpg);
+    background-size: cover;
+    background-position: center;
+}
   
   .hero-title {
     color:#fff ;
