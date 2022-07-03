@@ -639,11 +639,13 @@ text-align: center;
 letter-spacing: 0.03em;
 color:var(--primery-text-colot);
 margin-bottom: 50px;
+
 }
 
 .clients-list {
     display: flex;
     justify-content: space-between;
+    margin-right: 30px;
 }
 
 .clients-icon {
@@ -670,4 +672,30 @@ margin-bottom: 50px;
  border-color:#2196f3;
  }
 
- 
+ /* футур присоеденяйтесь */
+
+.join-text{
+font-style: normal;
+font-weight: 700;
+font-size: 14px;
+line-height: 1.14px;
+letter-spacing: 0.03em;
+text-transform: uppercase;
+line-height: 1.14;
+margin-bottom: 20px;
+color: #FFFFFF;
+}
+
+.footer-join {
+    min-width: 206px;
+}
+
+
+.footer .join-social {
+  padding-left: 0px;
+  padding-right: 0px;
+}
+
+.footer .hover-social-link {
+  background-color: rgba(255, 255, 255, 0.1);
+}
