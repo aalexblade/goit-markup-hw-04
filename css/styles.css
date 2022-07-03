@@ -690,12 +690,27 @@ color: #FFFFFF;
     min-width: 206px;
 }
 
-
-.footer .join-social {
-  padding-left: 0px;
-  padding-right: 0px;
-}
-
 .footer .hover-social-link {
   background-color: rgba(255, 255, 255, 0.1);
 }
+
+.footer-conteiner{
+      min-width: 231px;
+    margin-right: 70px;
+  }
+
+
+  .footer .join-social {
+    padding-left: 0px;
+    padding-right: 0px;
+    display: flex;
+    }
+
+    .footer .container {
+      display: flex;
+      align-items: baseline;
+    }
+    
+    .footer-join .social + .social {
+      margin-left: 10px;
+  }
