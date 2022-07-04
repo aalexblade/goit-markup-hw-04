@@ -320,9 +320,10 @@ color: var(--accent-color);
 
   
   /* чем мы занимаемся */
+
   .work-section{
     padding-top: 0;
-    /* background-color: tomato; */
+ 
   }
   
   .work-title {
@@ -347,11 +348,11 @@ color: var(--accent-color);
     
   }
   
-   .work-images{
-    margin-right: 30px;
-       
-   }
-  
+   .work-section .work-images + .work-images {
+    margin-left: 30px;
+  } 
+    
+
   
   /* наша команда */
   .team {
@@ -595,9 +596,9 @@ color: var(--accent-color);
 
 .team-social{
   display: flex;
-  padding-left: 32px;
-  padding-right: 32px;
-  padding-bottom: 30px;
+  margin-left: 32px;
+  margin-right: 32px;
+  margin-bottom: 30px;
   justify-content: space-between;
 
 }
@@ -642,6 +643,10 @@ margin-bottom: 50px;
 
 }
 
+/* .clients{
+  display: flex;
+} */
+
 .clients-list {
     display: flex;
     justify-content: space-between;
@@ -653,6 +658,7 @@ margin-bottom: 50px;
 }
 
 
+
 .hover-clients-link{
   justify-content: center;
   align-items: center;
@@ -660,6 +666,9 @@ margin-bottom: 50px;
   height: 92px;
   border: 1px solid #AFB1B8;
   border-radius: 4px;
+  padding-top: 16px;
+  padding-left: 32px;
+
 }
 
 .clients-link:hover .clients-icon,
@@ -704,6 +713,7 @@ color: #FFFFFF;
     padding-left: 0px;
     padding-right: 0px;
     display: flex;
+   
     }
 
     .footer .container {
@@ -713,4 +723,8 @@ color: #FFFFFF;
     
     .footer-join .social + .social {
       margin-left: 10px;
+  }
+
+  .footer-social-icon{
+    fill: #fff;
   }
