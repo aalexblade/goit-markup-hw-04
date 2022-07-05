@@ -282,6 +282,7 @@ color: var(--accent-color);
     display: flex;
     justify-content:space-between;
     }
+
   
   .advantage-title {
     font-size: 14px;
@@ -315,8 +316,6 @@ color: var(--accent-color);
 .features:not(:last-child) {
   margin-right: 30px;
 }
-
-
 
   
   /* чем мы занимаемся */
@@ -574,6 +573,7 @@ color: var(--accent-color);
   }
   
   .title-portfolio {
+  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
